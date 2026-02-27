@@ -3482,7 +3482,7 @@
         <!-- VALUE BAR -->
         <div class="sums-may-sched-value-bar sums-may-reveal">
           <div class="sums-may-svb-item">
-            <div class="sums-may-svb-num">20h</div>
+            <div class="sums-may-svb-num">21.5h</div>
             <div class="sums-may-svb-lbl">Live Instructor<br />Sessions</div>
           </div>
           <div class="sums-may-svb-sep"></div>
@@ -3596,8 +3596,10 @@
                   <i class="fas fa-book-open"></i> Self-Study — Week 1
                 </div>
                 <ul class="sums-may-tl-col-list">
-                  <li>Video: SUMS lifecycle &amp; campaign design</li>
-                  <li>Reading: RxSWIN specification framework</li>
+                  <li>Video: Evolution of software updates — dealer to full OTA</li>
+                  <li>Video: SUMS lifecycle &amp; decommissioning checkpoints</li>
+                  <li>Reading: ISO 21434, UN R155 CSMS &amp; EU Cyber Resilience Act linkages</li>
+                  <li>Exercise: Map SUMS with ISO 24089 clause structure</li>
                   <li>Async modules &amp; pre-clinic exercises</li>
                 </ul>
               </div>
@@ -3615,6 +3617,9 @@
             <div class="sums-may-tl-tags">
               <span class="sums-may-tl-tag">AIS-190</span>
               <span class="sums-may-tl-tag">UN R156</span>
+              <span class="sums-may-tl-tag">ISO 24089</span>
+              <span class="sums-may-tl-tag">ISO 21434</span>
+              <span class="sums-may-tl-tag">EU CRA</span>
               <span class="sums-may-tl-tag">SUMS Architecture</span>
               <span class="sums-may-tl-tag">Regulatory Workflow</span>
             </div>
@@ -3639,6 +3644,7 @@
                   <li>OTA/FOTA pipeline architecture</li>
                   <li>PKI design &amp; key management</li>
                   <li>Cryptographic verification flows</li>
+                  <li>Delta update techniques &amp; backend infrastructure</li>
                 </ul>
               </div>
               <div class="sums-may-tl-col">
@@ -3646,9 +3652,11 @@
                   <i class="fas fa-book-open"></i> Self-Study — Week 2
                 </div>
                 <ul class="sums-may-tl-col-list">
-                  <li>Video: Backend pipeline case study</li>
-                  <li>Exercise: PKI trust chain design</li>
-                  <li>OTA/FOTA deep-dive &amp; case studies</li>
+                  <li>Video: Backend pipeline — ingestion, storage &amp; distribution</li>
+                  <li>Video: A/B partition rollback &amp; bootloader decision logic</li>
+                  <li>Exercise: PKI trust chain design with X.509 &amp; HMAC</li>
+                  <li>Reading: Delta update techniques — bsdiff &amp; VCDIFF</li>
+                  <li>Exercise: CI/CD pipeline for sign, build &amp; deploy</li>
                 </ul>
               </div>
               <div class="sums-may-tl-col">
@@ -3667,6 +3675,10 @@
               <span class="sums-may-tl-tag">PKI Design</span>
               <span class="sums-may-tl-tag">OTA Pipelines</span>
               <span class="sums-may-tl-tag">Cryptography</span>
+              <span class="sums-may-tl-tag">Delta Updates (bsdiff)</span>
+              <span class="sums-may-tl-tag">Backend CI/CD</span>
+              <span class="sums-may-tl-tag">VSOC &amp; Fleet Analytics</span>
+              <span class="sums-may-tl-tag">ASIL Safety</span>
             </div>
           </div>
 
@@ -3688,6 +3700,7 @@
                 <ul class="sums-may-tl-col-list">
                   <li>RxSWIN table design &amp; generation</li>
                   <li>Rollback mechanisms &amp; validation</li>
+                  <li>UDS diagnostics &amp; remote verification (DoIP/SOVD)</li>
                   <li>Compliance gap analysis</li>
                 </ul>
               </div>
@@ -3696,9 +3709,11 @@
                   <i class="fas fa-book-open"></i> Self-Study — Week 3
                 </div>
                 <ul class="sums-may-tl-col-list">
-                  <li>Video: Type Approval evidence structure</li>
-                  <li>Exercise: Draft evidence pack outline</li>
-                  <li>Evidence documentation &amp; audit trail prep</li>
+                  <li>Video: UDS services — DIDs, DTCs &amp; version validation</li>
+                  <li>Video: Type Approval evidence structure (AIS-190 &amp; UN R156)</li>
+                  <li>Reading: ISO 24089 clause mapping &amp; BPMN workflow modeling</li>
+                  <li>Exercise: Draft SUMS evidence pack outline &amp; risk logs</li>
+                  <li>Exercise: Hash chains &amp; digital signatures for tamper evidence</li>
                 </ul>
               </div>
               <div class="sums-may-tl-col">
@@ -3715,7 +3730,9 @@
             <div class="sums-may-tl-tags">
               <span class="sums-may-tl-tag">RxSWIN</span>
               <span class="sums-may-tl-tag">Rollback Design</span>
-              <span class="sums-may-tl-tag">Diagnostics</span>
+              <span class="sums-may-tl-tag">UDS Diagnostics</span>
+              <span class="sums-may-tl-tag">DoIP &amp; SOVD</span>
+              <span class="sums-may-tl-tag">OBD-II Updates</span>
               <span class="sums-may-tl-tag">Compliance Mapping</span>
             </div>
           </div>
@@ -3736,9 +3753,10 @@
                   <i class="fas fa-flask"></i> Live Lab
                 </div>
                 <ul class="sums-may-tl-col-list">
+                  <li>Flask backend, OpenSSL PKI &amp; ECU update simulation</li>
+                  <li>bsdiff delta updates &amp; UDS diagnostics testing</li>
                   <li>SUMS evidence pack assembly</li>
-                  <li>Peer review of deliverables</li>
-                  <li>Final Q&amp;A with CIRT auditor</li>
+                  <li>Peer review &amp; CIRT auditor Q&amp;A</li>
                 </ul>
               </div>
               <div class="sums-may-tl-col">
@@ -3746,9 +3764,10 @@
                   <i class="fas fa-book-open"></i> Self-Study — Week 4
                 </div>
                 <ul class="sums-may-tl-col-list">
-                  <li>Final revision &amp; mock test</li>
-                  <li>Evidence pack polishing</li>
-                  <li>Evidence pack structure review</li>
+                  <li>Video: End-to-end integration — backend to ECU communication</li>
+                  <li>Exercise: Error handling, signature failures &amp; rollback testing</li>
+                  <li>Final revision &amp; mock competency test</li>
+                  <li>Evidence pack polishing &amp; structure review</li>
                 </ul>
               </div>
               <div class="sums-may-tl-col">
@@ -3763,9 +3782,12 @@
               </div>
             </div>
             <div class="sums-may-tl-tags">
+              <span class="sums-may-tl-tag">Flask REST APIs</span>
+              <span class="sums-may-tl-tag">OpenSSL PKI</span>
+              <span class="sums-may-tl-tag">ECU Simulation</span>
+              <span class="sums-may-tl-tag">bsdiff Delta Updates</span>
+              <span class="sums-may-tl-tag">UDS Diagnostics</span>
               <span class="sums-may-tl-tag">Evidence Pack</span>
-              <span class="sums-may-tl-tag">Mock Audit</span>
-              <span class="sums-may-tl-tag">CIRT Auditor Review</span>
               <span class="sums-may-tl-tag">Live Labs</span>
             </div>
           </div>
